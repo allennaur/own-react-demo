@@ -1,8 +1,54 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.App-logo {
+.Top-search-area {
+  /* border: 1px solid red; */
+  width: 65%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main-area {
+  border: 1px solid blue;
+  width: 65%;
+  padding: 25px;
+}
+
+.Copy-area {
+  /* border: 1px solid green; */
+  width: 65%;
+  height: 200px;
+}
+
+.searchBefore {
+  /* background-color: pink; */
+}
+
+.search-input {
+  width: 65%;
+  box-shadow: 0 2px 5px #eee;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.input-area:hover {
+  /* outline: none; */
+}
+
+.search-input:hover {
+  transition: all 0.5s;
+  box-shadow: 0 2px 10px #ddd;
+  /* transform: scale(1.01); */
+}
+
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
@@ -25,4 +71,4 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
